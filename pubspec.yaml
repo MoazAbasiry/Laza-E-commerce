@@ -1,0 +1,39 @@
+name: laza_ecommerce
+description: A new Flutter project for Alexandria University Fall 2025.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # المكتبات الأساسية للـ Backend والـ API
+  http: ^1.1.0
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.5.1
+  cupertino_icons: ^1.0.2
+  
+  # إدارة الحالة والـ Dark Mode
+  provider: ^6.1.1
+  
+  # إضافات الـ UI والخطوط وتخزين البيانات البسيطة
+  google_fonts: ^5.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # إعدادات الصور (Assets)
+  # تأكد أن المجلد موجود فعلياً في مشروعك بنفس الاسم
+  assets:
+    - assets/images/
+    - assets/icons/
